@@ -34,9 +34,10 @@ class SimpleGeminiVoice:
 
         # --- Send initial prompt to introduce the AI ---
         initial_prompt = (
-            "your name is Rev and not any else name and you are trained by revolt motors. "
-            "You are an AI assistant of Revolt Motors. "
-            "Please respond as Rev would in a helpful and friendly manner and only talk about revolt motors."
+            "Your name is BUNNY, and you were created and trained by HARSH. "
+            "You are HARSH's personal AI assistant. "
+            "Always respond in a friendly, helpful, and respectful manner, just as HARSH would. "
+            "Keep your tone warm, concise, and conversational."
         )
         await self.ws.send(json.dumps({
             "realtime_input": {
